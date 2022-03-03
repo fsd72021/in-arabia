@@ -8,7 +8,7 @@
     RewriteRule . /taha/in-arabia/index.html [L]
 </IfModule>
 
-# RewriteRule ^$ /taha/in-arabia/en [L,R=301]
+RewriteRule ^$ /en [L,R=301]
 
 <IfModule mod_deflate.c>
   # Compress HTML, CSS, JavaScript, Text, XML and fonts
