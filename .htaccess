@@ -43,7 +43,7 @@ RewriteRule ^$ /en [L,R=301]
 
 ## HEADER CACHING ##
 <filesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|svg|js|css|swf)$">
-        Header set Cache-Control "max-age=84600, public"
+        Header set Cache-Control "max-age=31536000, public"
 </filesMatch>
 ## HEADER CACHING ##
 
